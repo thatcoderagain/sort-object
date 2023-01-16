@@ -1,5 +1,5 @@
-# sort-object
-The following functions sorts and array of objects, when object key is not numeric/alphabetic/alpha-numeric to sort in the desired order.
+# Sort Object
+The following functions sorts an array of objects, when object key is not sufficient to sort in the desired order.
 
 Usage
 
@@ -8,15 +8,19 @@ Usage
 const dataObject = [
   {
     id: '07c12d8dd4ab4492afe3c0d5d78cd09e',
+    name: "John",
   },
   {
     id: '6c6e77c334e646d98617c7faccf701a8',
+    name: "Cal",
   },
   {
     id: '7ca269e3c88e4247a78f54c4526f27ca',
+    name: "Emi",
   },
   {
     id: 'f9876e90d6444d5581a3e927b36a2362',
+    name: "Sara",
   },
 ];
 
