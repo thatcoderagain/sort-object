@@ -43,4 +43,26 @@ const sequenceObject = [
 // Calling the sorting function
 const sortedData = sortObject(dataObject, sequenceObject, 'id');
 
+/**
+vaue of sortedData would be 
+[
+  {
+    id: '6c6e77c334e646d98617c7faccf701a8',
+    name: "Cal",
+  },
+  {
+    id: 'f9876e90d6444d5581a3e927b36a2362',
+    name: "Sara",
+  },
+  {
+    id: '7ca269e3c88e4247a78f54c4526f27ca',
+    name: "Emi",
+  },
+  {
+    id: '07c12d8dd4ab4492afe3c0d5d78cd09e',
+    name: "John",
+  }
+];
+**/
+
 ```
